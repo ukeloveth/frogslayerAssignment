@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+    /* background-color: blue; */
+}
+.blogcareers{
+     
+    width: 100%;
+    
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 25px;
+background-color: rgb(23, 84, 85);
+color: #fff;
+font-size: 20px;
+
+}
+.comy a{
+    color: #fff;
+    font-size: 20px;
+
+}
+.bolo{
+/* position:fixed; 
+height: 150px; */
+/* position: relative; */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 30px;
+}
+.pay{
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(23, 84, 85);
+    font-weight: bolder;
+}
+.fros{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding: 30px;
+}
+nav ul li{
+    
+    margin:0px 5px; 
+}
+/* nav ul(last-child) li{
+    margin-right: 0px; 
+}*/
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(23, 84, 85);
+    }
+.background{
+width: 100%;
+/* position: relative; */
+justify-content: center;
+line-height: 20px;
+text-align: center;
+} 
+
+.matt{
+    justify-content: center;
+line-height: 30px;
+text-align:center;
+color: #fff;   
+padding: 20px;
+position: relative;
+top: 30px;
+}
+.baba{
+    justify-content: center;
+    line-height: 10px;
+    text-align:center;
+    color: #fff;   
+    padding: 20px;
+    position: relative;
+    top: 30px;  
+}
+.background .img{
+    background-image: url("images/bgimage9.png");
+    position: absolute;
+    
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+     width: 100%;
+     z-index: -1;
+
+    /* z-index: 1px;  */
+}
+.how{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    width: 100%;
+}

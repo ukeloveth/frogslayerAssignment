@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+
+/* .container{
+    width: 100%;
+  background-color: blue;
+
+} */
+.content{
+    display: flex;
+    flex-direction:column;
+    /* float: right; */
+    width:20%;
+    padding:100px 10px;
+    
+    /* margin-top: 30px; */
+    /* margin-right: 60px; */
+    
+    
+    
+    /* background-color: tan; */
+}
+.mycard{
+    
+    box-shadow: 0px 4px 8px 0px rgba(136, 31, 31, 0.7);
+    text-align: justify;
+    padding: 10px;
+    color: slategrey;
+    border-radius: 15px;
+    cursor: pointer;
+    /* padding-top: 50px; */
+    max-width: 200px;
+    height: 410px;
+}
+ .mycard:hover{
+    background-color: seashell;
+    transition: 2s; 
+}
+.percen{
+    position: relative;
+    top: -35px;
+    left: 190px;
+    font-size: 12px;
+    background-color: rgb(141, 120, 111);
+    width: 40px;
+    padding: 3px;
+    text-align: center;
+    border-radius: 10px;
+    color: snow;
+    font-weight: bold;
+}
+.imag{
+    position: relative;
+    top: -37px;
+   width:240px;
+   height: 250px;
+   padding: 4px;
+   background-color: tan;
+}
+.product{
+
+width: 240px; 
+font-size: 13px;
+text-align: center;
+margin-top:-18px;
+
+}
+.discountedamount{
+    width: 240px;
+    position: relative;
+    top: 10px;
+    /* background-color: tan; */
+    text-align: center;
+    
+}
+.oldamount{
+    width: 240px;
+    position: relative;
+    top: 16px;
+    /* background-color: tan; */
+    text-align: center;
+    text-decoration: line-through;
+    
+    
+}
+.seemore{
+    float: right;
+    position: relative;
+    top: 25px;
+    left: -50px;
+    background-color: antiquewhite;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 70px;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 3px;
+    
+}
+
+
+button{
+  float: left; 
+  position: relative; 
+  top: 18px;
+  left: 10px;
+border: none;
+ display: inline;
+ padding:4px ; 
+ margin-top: 5px; 
+ width: 70px; 
+ background-color: tan;
+ border-radius: 8px;
+ text-align: center;
+ font-size: 12px;
+ font-weight: bold;
+ color: whitesmoke;
+}
+
+
+
+    

@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://fontawesome.com/v5.15/icons/phone?style=light">
+    <link rel="shortcut icon" href="https://frogslayer.com/wp-content/uploads/2020/11/FrogSlayer_LogoMark_Green_RGB.png"/>
+
+<style>
+   *{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+/* background-color: blueviolet; */
+}
+header{
+    /* position: relative; */
+    width: 100%;
+    display: flex;
+    
+    justify-content: space-between;
+    display: -webkit-box-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    padding: 25px;
+    padding-left: 45px;
+    font-size: 20px;
+    text-transform: capitalize;
+    background-color: rgb(29, 59, 29);
+    font-weight: bold;
+    color: #fff;
+    
+}
+header .comy a{
+    color: #fff; 
+    font-size: 20px;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+header ul li{
+    justify-content: space-around;
+     margin-right: 20px;
+     list-style: none;
+     padding-left: 15px;
+      /* padding: 10px;  */
+     
+}
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.frog{
+    /* position: fixed; */
+    
+    width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 20px;
+padding-left: 45px;
+cursor: pointer;
+}
+
+nav ul{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+nav ul li{
+    justify-content: space-around;
+    margin-left: 35px;
+    list-style: none;
+    text-transform: capitalize;
+    padding-right: 35px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(18, 105, 18);
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+footer{
+    width: 100%;
+    height: 500px;
+    background-color:   rgb(14, 51, 30);;
+}
+
+.footest{
+
+    display: flex;
+}
+.footer-one{
+width: 500px;
+position: relative;
+top: 40px;
+left: 70px;
+
+}
+.gol{
+    color: rgb(126, 25, 25);
+margin-bottom: 40px;
+
+}
+.lop{
+    color: rgb(163, 21, 21);
+}
+.Southwest{
+    color: #fff;
+    line-height: 25px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.numbat{
+    color: #fff;
+    /* line-height: 25px; */
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.howdy{
+    color: #fff;
+    /* line-height: 25px; */
+    margin-bottom: 103px;
+    font-size: 20px;  
+    cursor: pointer; 
+}
+.away{
+    color: #fff;
+    /* line-height: 25px; */
+    margin-bottom: 13px;
+    font-size: 20px;
+    cursor: pointer; 
+}
+.footer-two{
+   width: 600px; 
+   position: relative;
+    top: 25px;
+    left: 0px;
+}
+.reviewed{
+    
+    margin-top: 20px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+span{
+    font-size: 55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer-three{
+width: 600px;
+position: relative;
+top: 45px;
+left: 0px;
+padding: 10px;
+
+}
+.abut{
+    font-size: 20px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 38px;
+    cursor: pointer;
+}
+.softwar{
+    color: #fff;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 300px;
+    cursor: pointer;
+}
+.icoma{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    font-size: 45px;
+    cursor: pointer;
+     /* margin-left: 25px;  */
+    /* justify-content: space-around; */
+}
+.policy{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+    padding: 10px;
+    margin-right: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.policy:hover{
+    color: chocolate;
+}
+
+input{
+    width: 30%;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+    background-color: #fff;
+    
+}
+textarea{
+    width: 30%;
+    border-radius: 5px;
+    background-color: #fff;
+}
+/* input['placeholder']{
+    color: red;
+} */
+
+input[type=text], input[type=email], input[type=tel], textarea{
+    background-color: #fff;
+color:rgb(13, 46, 13); 
+font-weight: normal;
+/* color: red; */
+font-size: 15px;
+
+}
+input[type=submit]{
+    background-color:rgb(39, 70, 102);
+    color:#fff;
+    font-size: 20px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+ 
+input[type=submit]:hover{
+    background-color:rgb(24, 22, 36);
+    /* color:#fff;  */
+}
+.talk{
+display: flex;
+flex-direction: row;
+width: 100%;
+position: relative;
+
+}
+.talk .back-image{
+    background-image: url("images/bgimage9.png");
+    position:absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+}
+
+.lettalk{
+     width: 100%; 
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    
+    margin-top: 100px;
+    margin-left: 70px;
+    color: #fff;
+}
+.covet{
+      display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    
+    /*position: relative;
+    top: 230px;
+    right: 606px; */
+}
+.Wondering{
+    /* float: left;
+    width: 100%;
+    margin-right: 60px; */
+    position: relative;
+    top: 170px;
+    right: 440px;
+}
+.kas{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 35px;
+    text-align: justify;
+    color: #fff;
+    width: 90%;
+    margin-bottom: 50px;
+    top: 170px;
+    right: 440px;
+}
+.las{
+    position: relative;
+    top: 30px;
+    left: 5px;
+    color: #fff;
+}
+.p{
+    position: relative;
+    top: 0;
+    left: 45px;
+    font-size: 25px;
+    line-height: 45px;
+    color: #fff;
+}
+form{
+    /* clear: both; 
+    float: left;*/
+    width: 100%;
+    
+}
+</style>
+
+</head>
+<body>
+    
+    <header>
+        <div class="comy"> 
+            <a href="#" class="com"><i class="fa fa-facebook"></i></a> 
+            <a href="#" class="com"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="com"><i class="fa fa-youtube-square"></i></a>
+            <a href="#" class="com"><i class="fa fa-invision"></i></a>
+            <a href="#" class="com"><i class="fa fa-instagram"></i></a>
+          </div>
+
+          <ul class="blog">
+          <li> <a href="#">blog</a> </li>
+          <li> <a href="#">careers</a> </li>
+
+          </ul>
+    </header>
+
+    <div class="frog">
+        
+        <img src="images/FrogSlayer_LogoPrimaryMark_Green_RGB.png" width="150px" height="50px" class="imag">  
+
+        <nav>
+            <ul>
+                <li><a href="#">about</a></li>
+                <li><a href="#">pricing</a></li>
+                <li><a href="#">process</a></li>
+                <li><a href="#">whyfrogslayer</a></li>
+                <li><a href="frogslayer2.html">contact</a></li>
+            </ul>
+        </nav>
+</div>
+
+<section class="talk">
+    <div class="back-image"></div>
+    <h1 class="lettalk">LET'S TALK.</h1>
+    <div class="covet">
+        <div class="Wondering">
+    <p class="kas">Wondering if custom software could help take your business to the next 
+        level? Do you need help with your custom software project? Looking for a development
+         team to create your app? Fill out this form to contact us and 
+         you’ll hear back within 24 hours.</p>
+
+         <img src="images/houses-icon.png" width="20px" height="20px" class="las"> <p style="color: #fff;font-size: 25px;line-height: 45px;">909 Southwest Parkway East<br>
+            College Station, TX 77840</p>
+         <img src="images/message-icon.png" width="15px" height="15px" class="las"> <p class="parkway">howdy@frogslayer.com</p>
+        <img src="images/telephone-icon.png" width="15px" height="15px" class="las"> <p class="parkway">(979) 900-3023</p>
+    </div>
+
+    <div class="fomer">
+        <form action="#">
+            <input type="text" id="fname" name="fname"  placeholder="First Name"><br>
+            <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
+            <input type="text" id="cname" name="cname" placeholder="Company Name"><br>
+            <input type="email" id="email" name="email" placeholder="email"><br>
+            <input type="tel" id="number" name="number" placeholder="Phone Number" pattern="[0-9]{3}-[0-9]-{2}-[0-9]{3}"><br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea><br>
+            <input type="submit"  value="SUBMIT FORM"><br>
+            <input type="text" id="hname" name="hname" placeholder="How Did You Find Us?">
+        </form>
+    </div>
+    </div>
+         
+</section>
+
+
+<footer>
+
+    <div class="footest">
+        
+
+        <div class="footer-one">
+
+            <div class="gol">
+                <img src="images/FrogSlayer_LogoPrimaryMark_Green_RGB.png" width="300px" height="100px" class="lop" >
+            </div>
+
+            <p class="Southwest">909 Southwest Pkwy E<br>
+                College Station, Texas 77840
+                
+                </p>
+
+                <p class="numbat">
+                    (979) 900-3023
+                </p>
+
+                <p class="howdy">howdy@frogslayer.com</p>
+                <p class="away">© 2020 Frogslayer, LLC</p>
+        </div>
+
+        <div class="footer-two">
+            <p class="reviewed" >REVIEWED ON <i class="fa fa-star"  style="color: red;" ></i>
+                 <i class="fa fa-star" style="color: red;"></i> <i class="fa fa-star"  style="color: red;"></i> <i class="fa fa-star" style="color: red;" >
+            </i> <i class="fa fa-star" style="color: red;" ></i></p>
+            <p style="color: #fff;"><span style="color: #000;">clutch</span>  REVIEWED ON</p>
+            <img src="images/top-software-development-companies.svg" width="300px" height="100px">
+
+        </div>
+
+
+        <div class="footer-three">
+            <h1 class="abut">ABOUT FROGSLAYER</h1>
+             <p class="softwar">Frogslayer is a software product development and commercialization firm. 
+                 They partner with leading mid-sized companies to create forward-leaping, 
+                 industry-shattering software products and digital platforms that enable growth
+                  and generate outsized returns.
+
+            </p>
+
+          <div class="icoma">
+         <i class="fa fa-facebook-square" width="200px" style="margin-right: 8px;color:darkorchid"></i>
+         <i class="fa fa-twitter-square" style="margin-right: 8px; color: cyan;"></i>
+         <i class="fa fa-youtube" style="margin-right: 8px; color: red;" ></i>
+         <i class="fa fa-invision"></i>
+         <i class="fa fa-sticky-note" style="margin-right: 8px;color: steelblue;"></i>
+         </div>
+          
+           <div class="policy">
+            <h3> Terms of Use</h3>
+            <h3> Privacy Policy </h3>
+            <h3>Site Map</h3>
+             </div>
+        
+        
+        </div>
+       
+        
+
+    </div>
+
+</footer>
+
+
+</body>
+</html>
